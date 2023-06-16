@@ -5,6 +5,6 @@ The test instructions (TIs) provide information about the modeling of various br
 - The IFC4.3.x documentation at https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/content.html and
 - The offical AASHTO IDM at https://store.transportation.org/Item/CollectionDetail?ID=241.
 
-If you have any questions, please use the Discussions section of this repo. If you find problems/errors/issues with the TIs, please use the Issues section to submit an Issue.
+If you have any questions, please use the [*Discussions*](https://github.com/jwouellette/TPF-5_372-Unit_Test_Suite/discussions) section of this repo. If you find problems/errors/issues with the TIs, please use the [*Issues*](https://github.com/jwouellette/TPF-5_372-Unit_Test_Suite/issues) section to submit an Issue. All relevant technical and implementation documentation can be found in the [*Wiki*](https://github.com/jwouellette/TPF-5_372-Unit_Test_Suite/wiki)
 
 While this repo is public, all participation access (Collaborator) is restricted to the project Software Vendors Advisory Group members. For more info about joining the project SVAG, please send a message to jwouellette@gmail.com.
