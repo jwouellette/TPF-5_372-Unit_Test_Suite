@@ -1,0 +1,10 @@
+Level 2	- Arrays	
+
+Description:
+Simple arrays of similar basic elements, mimicing typical repetitive constructions
+
+Goals/Concepts Tested
+- Object Types
+- Object Type Properties
+- Instance overrides of Types and Type Properties
+- Spatial Hierarchy

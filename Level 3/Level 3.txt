@@ -1,0 +1,9 @@
+Level 3	- Aggregations	
+
+Description:
+Aggregation of elements and needed connections/interfaces into typical substructure and superstructures subsets/bays/spans
+
+Goals/Concepts Tested:
+- IfcFacilityElement
+- Connections/Bearings/Interfaces
+- IfcRelConnects"

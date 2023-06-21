@@ -1,0 +1,9 @@
+Level 1 - Elements
+
+Description
+Basic elements of bridge construction in steel and concrete material permutations, as well as all relevant geometric permutations
+
+Goals/Tested Concepts:
+- Geometry: using standard and custom profiles
+- Material: Steel & concrete (PRC, RC)
+- Properties:
