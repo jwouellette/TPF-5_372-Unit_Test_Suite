@@ -71,13 +71,14 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 Link to IDS file: [ABCD123.ids]() :construction:
 
-- There must be 1 instance(s) of IfcWall and must be named `AbutmentFooting_N`, its PredefinedType must be `SOLIDWALL`
-- There must be 5 instance(s) of IfcVoidingFeature and named "Keyway01" thru "Keyway05", their PredefinedType must be `CUTOUT`
-- There must be 1 instance(s) of IfcBridgePart and must be named 'Abutment_N', its PredefinedType must be `ABUTMENT`, CompositionType must be 'COMPLEX'
-- There must be 1 instance(s) of IfcAlignmentCant and must be named `C1`
-- There must be 2 instance(s) of IfcSignal and must be named `Route Indicator_01`, `Route Indicator_02`
-- The horizontal layout must include only the following types of segments: Line, Circular Arc, Clothoid
-   - (or one step closer to IFC) The PredefinedType of IfcAlignmentHorizontalSegment must be `LINE` or `CIRCULARARC` or `CLOTHOID`
+- There must be 1 instance(s) of `IfcWall` and must be named `AbutmentFooting_N`, its PredefinedType must be `SOLIDWALL`
+- There must be 5 instance(s) of `IfcVoidingFeature` and named `Keyway01` thru `Keyway05`, their PredefinedType must be `CUTOUT`
+- There must be 1 instance(s) of `IfcBridgePart` and must be named `Abutment_N`, its PredefinedType must be `ABUTMENT`, CompositionType must be `COMPLEX`
+- There must be x instances of IfcReinforcingBar... type xx
+- There must be x instances of IfcReinforcingBar... type xx
+- There must be x instances of IfcReinforcingBar... type xx
+- There must be x instances of IfcReinforcingBar... type xx
+- 
 
 >:information_source: *above is just an example of plain language requirements. Note how the last one can be either listed as IFC-agnostic requirement, or can be specified in an IFC-fashioned way. It's up to the test case owner to decide.*
 
