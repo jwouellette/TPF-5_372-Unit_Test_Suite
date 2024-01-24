@@ -2,21 +2,21 @@
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
-| ABCD123   | Colonel Mustard | bSI                 | Export/Import  |
+| L1-Br01-AbutmentFooting01   | J Ouellette | TPF-5(372)                 | Export/Import  |
 
 >**After completing the test description delete all the instructions (in Italic, marked with :information_source:). Including this one.**
 
 ## Intent
 >:information_source: *describe the intention of the test, and (optionally) list the main IFC concepts covered.*
-
+The intent is to test the proper IFC mapping of a bridge abutment wall/footing, including reinforcing
 ...
 
 <details><summary>Main IFC concept involved in this test</summary> 
 
-- Project Global Positioning
-- Alignment Layout
-- Spatial Decomposition
-- ...
+- Spatial Decomposition, specifically IfcBridgePart.ABUTMENT [COMPLEX]
+- Use of IfcWall for main element
+- Use of IfcVoidingFeature for keyway recesses
+- Use of IfcReinforcing
 </details>
 
 
@@ -40,9 +40,7 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 
 | Filename (format)         | Description                                                        |
 |---------------------------|--------------------------------------------------------------------|
-| LineLayout.svg            | Schematic line layout of the test case                             |
-| Alignment1_horizontal.csv | Alignment parameters for horizontal segments of the Primary Route  |
-| Alignment1.ifc            | **Reference IFC file**. Contains the alignment curve for this test |
+| L1-Br01-AbutmentFooting01.pdf            | Construction details of an Abutment, per Br01                             |
 
 
 ## Validation criteria
@@ -73,9 +71,9 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 Link to IDS file: [ABCD123.ids]() :construction:
 
-- There must be 1 instance(s) of IfcAlignment and must be named `Track alignment`,its PredefinedType must be `USERDEFINED` and its ObjectType must be `Railway track alignment`
-- There must be 1 instance(s) of IfcAlignmentHorizontal and must be named `H1`
-- There must be 1 instance(s) of IfcAlignmentVertical and must be named `V1`
+- There must be 1 instance(s) of IfcWall and must be named `AbutmentFooting_N`, its PredefinedType must be `SOLIDWALL`
+- There must be 5 instance(s) of IfcVoidingFeature and named "Keyway01" thru "Keyway05", their PredefinedType must be `CUTOUT`
+- There must be 1 instance(s) of IfcBridgePart and must be named 'Abutment_N', its PredefinedType must be `ABUTMENT`, CompositionType must be 'COMPLEX'
 - There must be 1 instance(s) of IfcAlignmentCant and must be named `C1`
 - There must be 2 instance(s) of IfcSignal and must be named `Route Indicator_01`, `Route Indicator_02`
 - The horizontal layout must include only the following types of segments: Line, Circular Arc, Clothoid
