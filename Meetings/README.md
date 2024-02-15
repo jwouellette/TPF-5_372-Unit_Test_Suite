@@ -12,9 +12,9 @@ The tentative schedule for the 2024 meetings is a follows:
 | 28 FEB | 24 APR | 17 JUL | 23 OCT |
 | 13 MAR | 08 MAY | 31 JUL | 06 NOV |
 | 27 MAR | 22 MAY | 14 AUG | 20 NOV |
-| x | 05 JUN | 28 AUG | 04 DEC |
-| x | 19 JUN | 11 SEP | 18 DEC |
-| x | x | 25 SEP | x |
+|   | 05 JUN | 28 AUG | 04 DEC |
+|   | 19 JUN | 11 SEP | 18 DEC |
+|   |   | 25 SEP |   |
 
 Some meetings may be cancelled due to (inter)national holidays, events (such as bSI/bSUSA conferences), or emergencies. Participants will receive calendar invites and updates accordingly.
 
