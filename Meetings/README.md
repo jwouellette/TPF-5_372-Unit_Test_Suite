@@ -8,7 +8,7 @@ The tentative schedule for the 2024 meetings is a follows:
 
 | Q1 | Q2 | Q3 | Q4 |
 | --- | --- | --- | --- |
-| ~~14 FEB~~ | 10 APR | 03 JUL | 09 OCT |
+| 14 FEB | 10 APR | 03 JUL | 09 OCT |
 | 28 FEB | 24 APR | 17 JUL | 23 OCT |
 | 13 MAR | 08 MAY | 31 JUL | 06 NOV |
 | 27 MAR | 22 MAY | 14 AUG | 20 NOV |
