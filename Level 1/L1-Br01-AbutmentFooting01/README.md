@@ -2,23 +2,22 @@
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
-| L1-Br01-AbutmentFooting01   | J Ouellette | TPF-5(372)                 | Export/Import  |
+| L1-Br01-AbutmentFooting01   | J Ouellette | TPF-5(372) | Export/Import  |
 
 >**After completing the test description delete all the instructions (in Italic, marked with :information_source:). Including this one.**
 
 ## Intent
 >:information_source: *describe the intention of the test, and (optionally) list the main IFC concepts covered.*
-The intent is to test the proper IFC mapping of a bridge abutment wall/footing, including reinforcing
-...
+The intent is to test the proper IFC mapping of a bridge abutment wall/footing, including reinforcing.
 
 <details><summary>Main IFC concept involved in this test</summary> 
 
 - Spatial Decomposition, specifically IfcBridgePart.ABUTMENT [COMPLEX]
 - Use of IfcWall for main element
 - Use of IfcVoidingFeature for keyway recesses
-- Use of IfcReinforcing
+- Use of IfcReinforcing for steel reinforcing elements
+- Use of schema-based and custom properties and property sets
 </details>
-
 
 
 ## Prerequisites
@@ -40,7 +39,7 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 
 | Filename (format)         | Description                                                        |
 |---------------------------|--------------------------------------------------------------------|
-| L1-Br01-AbutmentFooting01.pdf            | Construction details of an Abutment, per Br01                             |
+| L1-Br01-AbutmentFooting01.pdf | Construction details of an Abutment, per L4-Br01 bridge design     |
 
 
 ## Validation criteria
